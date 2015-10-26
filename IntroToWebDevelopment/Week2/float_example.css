@@ -1,0 +1,30 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 7px;
+    border: 2px solid black;
+}
+
+h1 {
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.redsquare {
+    margin: 0px 8px 8px 0px;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+
+.square1 {
+    float: right;
+}
+
+.square2 {
+    float: right;
+}
+
+.square3 {
+    float: right;
+}

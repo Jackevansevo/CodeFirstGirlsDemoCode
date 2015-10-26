@@ -1,0 +1,24 @@
+.red-div {
+    border: 7px solid goldenrod;
+    background-color: red;
+
+    height: 100px;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    /* margin-top: 50px; */
+    /* padding-top: 50px; */
+}
+
+.blue-div {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+}

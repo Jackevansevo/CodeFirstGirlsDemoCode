@@ -1,0 +1,43 @@
+.container {
+    /* Set position as relative */
+    position: relative;
+
+    height: 80vh;
+    width: 70%;
+    margin: 0 auto;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.box {
+    /* Make all child nodes absolute */
+    position: absolute;
+
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#top-right {
+    right: 0;
+    top: 0;
+}
+
+#top-left {
+    left: 0;
+    top: 0;
+}
+
+#bot-right {
+    right: 0;
+    bottom: 0;
+}
+
+#bot-left {
+    left: 0;
+    bottom: 0;
+}

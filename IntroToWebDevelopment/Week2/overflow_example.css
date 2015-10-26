@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+}
+
+div {
+    border: 1px solid;
+    width: 400px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    background-color: red;
+    overflow: hidden;
+}
+
+.scroll {
+    background-color: blue;
+    overflow: scroll;
+}
+

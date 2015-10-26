@@ -1,0 +1,72 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 98vh;
+}
+
+main {
+    display:flex;
+    flex: 1;
+}
+
+.fa {
+    padding-right: 0.4em;
+}
+
+.content h2 {
+    color: cadetblue;
+}
+
+.sidebar {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: cadetblue;
+    flex: 1;
+}
+
+.sidebar h1 {
+    font-size: 50px;
+}
+
+.sidebarcontent {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sidebar li a {
+    color: aliceblue;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.sidebar li {
+    font-size: 17px;
+    margin-bottom: 0.2em;
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: auto;
+    list-style: none;
+}
+
+.article {
+    padding-bottom: 2em;
+    padding-right: 3em;
+    border-bottom: 1px solid gray;
+}
+
+.content {
+    flex: 6;
+}
+
+.article {
+    color: gray;
+    margin-left: 2em;
+}
+
+footer {
+    margin-top: 1em;
+    text-align: center;
+}

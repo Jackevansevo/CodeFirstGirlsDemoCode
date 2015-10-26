@@ -1,0 +1,25 @@
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px;
+}
+
+img {
+    min-height: 400px;
+    max-height: 400px;
+
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+a, a:active, a:focus {
+    outline: none;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
