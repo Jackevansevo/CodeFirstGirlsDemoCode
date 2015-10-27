@@ -1,0 +1,32 @@
+.column {
+    padding-top: 2em;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 400px;
+}
+
+#column1 {
+    background: #7C4DFF;
+}
+
+#column2 {
+    background: #C2185B;
+}
+
+#column3 {
+    background: #F8BBD0;
+}
+
+#column4 {
+    background: #727272;
+}
+
+#column5 {
+    background: #E91E63;
+}
+
+#column6 {
+    background: #B6B6B6;
+}
