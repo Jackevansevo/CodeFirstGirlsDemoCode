@@ -30,6 +30,8 @@
             <div class="jumbotron">
                 <h1>Bland Website Title</h1>
                 <hr>
+                <h4>Click these buttons to change the colour/style of the main title</h4>
+                <br>
                 <button type="button" class="btn btn-default">Black</button>
                 <button type="button" class="btn btn-primary">Blue</button>
                 <button type="button" class="btn btn-success">Green</button>
@@ -40,9 +42,18 @@
                 <br>
                 <br>
                 <br>
-                <button type="button" class="btn btn-default">Underline</button>
-                <button type="button" class="btn btn-default">Bold</button>
-                <button type="button" class="btn btn-default">Itallic</button>
+                <div class="dropdown" style="display: inline">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Style the title
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li id="underline-btn"><a>Underline</a></li>
+                        <li id="bold-btn"><a>Bold</a></li>
+                        <li id="italic-btn"><a>Itallic</a></li>
+                    </ul>
+                </div>
+                <button type="button" id="reset-btn" class="btn btn-primary">Reset</button>
             </div>
         </div>
     </body>
