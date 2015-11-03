@@ -14,5 +14,13 @@ function sumNumbers(x, y) {
 // console.log(multiplyNumbers(5, 4));
 // console.log(divideNumbers(20, 2));
 
-// Using the functions you created find the solution to
-// ((10 + 20) * (4 / 2)) * (7 - 2)
+// We can pass the output of one function to another, uncomment the line below to see
+// console.log(multiplyNumbers(sumNumbers(2, 2), sumNumbers(5, 3)));
+
+// Using the functions you created find the solutions to the following problems:
+//
+// (7 * 8) - (2 / 4)
+//
+// (11 * 7) * (1 - 2) + (22 * -8)
+//
+// ((10 + 20) * (4 / 2) * (7 - 2)
