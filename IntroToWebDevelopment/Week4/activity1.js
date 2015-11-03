@@ -1,17 +1,18 @@
 // Add javascript code here
 console.log("hello world");
 
-
-// Make functions to sum, subtract, multiply and divide two numbers
+// Make additional functions to subtract, multiply and divide two numbers
 
 // Remember function syntax:
-// function NameOfFunction(parameter1, parameter2) {
-      // body of function
-// }
+function sumNumbers(x, y) {
+    return x + y;
+}
 
 //Uncomment the below code to check that the functions work
-// sumNumbers(10, 11);
-// subractNumbers(8, 2);
-// multiplyNumbers(5, 4);
-// divideNumbers(20, 2);
+// console.log(sumNumbers(10, 11));
+// console.log(subtractNumbers(8, 2));
+// console.log(multiplyNumbers(5, 4));
+// console.log(divideNumbers(20, 2));
 
+// Using the functions you created find the solution to
+// ((10 + 20) * (4 / 2)) * (7 - 2)
