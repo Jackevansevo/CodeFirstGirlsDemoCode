@@ -12,10 +12,10 @@ function sumNumbers(x, y) {
 
 // Uncomment the below code to check that the functions work
 
-console.log(sumNumbers(10, 11));
-console.log(subtractNumbers(8, 2));
-console.log(multiplyNumbers(5, 4));
-console.log(divideNumbers(20, 2));
+// console.log(sumNumbers(10, 11));
+// console.log(subtractNumbers(8, 2));
+// console.log(multiplyNumbers(5, 4));
+// console.log(divideNumbers(20, 2));
 
 // We can pass the output of one function to another, uncomment the line below to see
 // console.log(multiplyNumbers(sumNumbers(2, 2), sumNumbers(5, 3)));
