@@ -1,13 +1,17 @@
-$(document).ready(function() {
+// Add javascript code here
+console.log("hello world");
 
-    // btn-default turns the font black
-    $(".btn-default").click(function() {
-        $("h1").css("color", "black");
-    });
 
-    // TASK: Add more on click events to style the header for the rest of the
-    // buttons
+// Make functions to sum, subtract, multiply and divide two numbers
 
-    // EXTRA TASK: Implement reset button functionality, google how to make
-    // font underlined/bold/itallic with css
-});
+// Remember function syntax:
+// function NameOfFunction(parameter1, parameter2) {
+      // body of function
+// }
+
+//Uncomment the below code to check that the functions work
+// sumNumbers(10, 11);
+// subractNumbers(8, 2);
+// multiplyNumbers(5, 4);
+// divideNumbers(20, 2);
+

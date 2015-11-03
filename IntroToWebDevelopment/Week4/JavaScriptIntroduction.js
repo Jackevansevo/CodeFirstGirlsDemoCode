@@ -1,15 +1,30 @@
-function rocketCountdown(startNumber) {
+// console.log("Hello world");
 
-    // If user didn't specify a start number we'll revert to 10
-    if(typeof startNumber === 'undefined') {
-        console.log("Counting down from 10");
-        startNumber = 10;
-    }
+// var x = 10;
+// var name = "Bacon";
 
-    for(n = startNumber; n > 0; n--) {
-        console.log(n);
-    }
-    console.log("Blastoff!!!");
-}
+// console.log(x + 10);
+// console.log(name + " " + "is awesome");
 
-rocketCountdown(5);
+// function helloWorld() {
+//     console.log("Hello world");
+// }
+
+// helloWorld();
+
+// function addNumbers(x, y) {
+//     console.log(x + y);
+// }
+
+// addNumbers(16, 8);
+
+// for(x = 1; x <= 10; x++) {
+//     console.log(x);
+// }
+
+// var x = 1;
+
+// do {
+//     console.log(x);
+//     x++;
+// } while(x <= 10);
