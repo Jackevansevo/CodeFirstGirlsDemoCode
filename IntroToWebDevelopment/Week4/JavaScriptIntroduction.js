@@ -1,30 +1,30 @@
-// console.log("Hello world");
+console.log("Hello world");
 
-// var x = 10;
-// var name = "Bacon";
+var x = 10;
+var name = "Bacon";
 
-// console.log(x + 10);
-// console.log(name + " " + "is awesome");
+console.log(x + 10);
+console.log(name + " " + "is awesome");
 
-// function helloWorld() {
-//     console.log("Hello world");
-// }
+function helloWorld() {
+    console.log("Hello world");
+}
 
-// helloWorld();
+helloWorld();
 
-// function addNumbers(x, y) {
-//     console.log(x + y);
-// }
+function addNumbers(x, y) {
+    console.log(x + y);
+}
 
-// addNumbers(16, 8);
+addNumbers(16, 8);
 
-// for(x = 1; x <= 10; x++) {
-//     console.log(x);
-// }
+for(x = 10; x >= 0; x--) {
+    console.log(x);
+}
 
-// var x = 1;
+var x = 1;
 
-// do {
-//     console.log(x);
-//     x++;
-// } while(x <= 10);
+do {
+    console.log(x);
+    x++;
+} while(x <= 10);

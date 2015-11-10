@@ -7,6 +7,18 @@ function sumNumbers(x, y) {
     return x + y;
 }
 
+function subtractNumbers(x, y) {
+    return x - y;
+}
+
+function multiplyNumbers(x, y) {
+    return x * y;
+}
+
+function divideNumbers(x, y) {
+    return x / y;
+}
+
 // TASK:
 // Make additional functions to subtract, multiply and divide two numbers
 
@@ -27,3 +39,6 @@ function sumNumbers(x, y) {
 // (11 * 7) * (1 - 2) + (22 * -8)
 //
 // ((10 + 20) * (4 / 2) * (7 - 2)
+console.log(subtractNumbers(multiplyNumbers(7, 8), divideNumbers(2, 4)));
+console.log(sumNumbers(multiplyNumbers(multiplyNumbers(11, 7), subtractNumbers(1, 2)), multiplyNumbers(22, -8)));
+console.log(multiplyNumbers(multiplyNumbers(sumNumbers(10, 20), divideNumbers(4, 2)), subtractNumbers(7, 2)));

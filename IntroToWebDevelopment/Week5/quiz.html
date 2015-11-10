@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Demo Site</title>
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <!-- JQuery UI -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <!-- Font aweosme fonts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- Loading Flat UI -->
+        <link href="Flat-UI/dist/css/flat-ui.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/test.css" rel="stylesheet">
+
+        <!-- Custom javascript -->
+        <script src="scripts/quizlogic.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Code First Girls Bath</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="quiz.html">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="syllabus.html">Syllabus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 align="center">Test Your Knowledge</h2>
+                    <hr>
+                    <div id="quizselector">
+                        <h3>Quiz 1</h3>
+                        <div>
+                            <br>
+                            <p><bold>1. What does HTML stand for?</bold></p>
+                            <form id="quiz1question1">
+                                <div id='type'>
+                                    <input type='radio' id='radio_1' name='quiz1question1' value='1' /> HypertextMarkUpLanguage<br>
+                                    <input type='radio' id='radio_2' name='quiz1question1' value='2' /> How To Melt Lasagne
+                                </div>
+                            </form>
+                            <hr>
+                            <p><bold>2. Which of the following links a CSS style sheet to a HTML page?</bold></p>
+                            <form id="quiz1question2">
+                                <div id='type'>
+                                    <input type='radio' id='radio_1' name='quiz1question2' value='1' /> &lt;script&gt;href="css/test.css"&lt;/script&gt; <br>
+                                    <input type='radio' id='radio_2' name='quiz1question2' value='2' /> &lt;link&gt;href="css/test.css"&lt;/link&gt;
+                                </div>
+                            </form>
+                            <hr>
+                            <p><bold>3. Which of the following links a Javascript file to a HTML page?</bold></p>
+                            <form id="quiz1question3">
+                                <div id='type'>
+                                    <input type='radio' id='radio_1' name='quiz1question3' value='1' /> &lt;script&gt;href="script/test.js"&lt;/script&gt; <br>
+                                    <input type='radio' id='radio_2' name='quiz1question3' value='2' /> &lt;link&gt;href="script/test.js"&lt;/link&gt;
+                                </div>
+                            </form>
+                            <hr>
+
+                            <p><bold>How many columns are in the Bootstrap flexible grid layout?</bold></p>
+                            <form id="quiz1question4">
+                                <div id='type'>
+                                    <input type='radio' id='radio_1' name='quiz1question4' value='1' /> 18 <br>
+                                    <input type='radio' id='radio_2' name='quiz1question4' value='2' /> 12
+                                </div>
+                            </form>
+                            <hr>
+
+                            <div class="alert alert-success" role="alert"></div>
+                            <div class="alert alert-info" role="alert"></div>
+                            <div class="alert alert-warning" role="alert"></div>
+                            <div class="alert alert-danger" role="alert"></div>
+
+                            <button id="checkQuiz1Btn" class="btn btn-primary">Check Answers</button>
+
+                        </div>
+                        <h3>Quiz 2</h3>
+                        <div>
+                            <br>
+                            <p><bold>Which is the better pizza topping</bold></p>
+                            <form id="quiz2question1">
+                                <div id='type'>
+                                    <input type='radio' id='radio_1' name='quiz2question1' value='1' /> Ham & Pineapple<br>
+                                    <input type='radio' id='radio_2' name='quiz2question1' value='2' /> Pepperoni
+                                </div>
+                            </form>
+                            <hr>
+                            <button id="checkQuiz2Btn" class="btn btn-primary">Check Answers</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+</html>

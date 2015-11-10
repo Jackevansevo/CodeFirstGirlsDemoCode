@@ -1,0 +1,25 @@
+body {
+    padding-top: 50px;
+}
+
+.business-header {
+    height: 400px;
+    background: url('../img/campus.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tagline {
+    padding-top: 22%;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    max-height: 250px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
